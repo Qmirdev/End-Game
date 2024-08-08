@@ -14,7 +14,7 @@ current_time = datetime.now().strftime("%Y.%m.%d-%H.%M.%S")
 # 2. Logging Configuration: Specify the file path where log entries will be saved.
 # This helps in tracking the script's execution and any issues that may arise.
 # Ensure that the directory structure exists, or the script will not run correctly.
-log_file = Path.home() / "Documents" / "End Game" / "logs" / f"{task_name}_{current_time}.log"
+log_file = Path.home() / "Documents" / "End-Game" / "logs" / f"{task_name}_{current_time}.log"
 logging.basicConfig(filename=log_file, level=logging.INFO)
 
 # 3. Target Path: Define the specific folder that you intend to delete.
